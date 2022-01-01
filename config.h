@@ -8,6 +8,9 @@
 static char *font = "Liberation Mono:pixelsize=23:antialias=true:autohint=true";
 static int borderpx = 2;
 
+/* alpha patch */
+float alpha = 0.9;
+
 /*
  * What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
